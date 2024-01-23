@@ -1,0 +1,42 @@
+h1 {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    font-family: 'Whisper', cursive;
+    font-size: 48px;
+}
+
+h3 {
+    background-color: brown;
+    color: white;
+    text-align: center;
+
+}
+
+#home {
+    background-color: beige;
+    color: black;
+    text-align: center;
+}
+
+h4,
+p {
+    background-color: beige;
+    color: brown
+}
+
+#welcome {
+    background-color: antiquewhite;
+    color: black;
+}
+
+#newLocations {
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+}
+
+.list {
+    background-color: burlywood;
+    color: black;
+}

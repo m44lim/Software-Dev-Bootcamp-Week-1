@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Forms</title>
+</head>
+
+<body>
+    <h1>Personality Form</h1>
+    <br>
+    <h2>Sign up</h2>
+    <form action="confirmation.html"></form>
+    <label for="firstName">First Name</label>
+    <input id="firstName" type="text" placeholder="First Name..." required>
+    <br>
+    <br>
+    <label for="lastName">Last Name</label>
+    <input id="lastName" type="text" placeholder="Last Name..." required>
+    <br>
+    <br>
+    <label for="male">
+        <input id="male" type="radio" name="male-female">Male</label>
+    <br>
+    <label for="female">
+        <input id="female" type="radio" name="male-ratherNotSay">Female</label>
+    <br>
+    <label for="ratherNotSay">
+        <input id="ratherNotSay" type="radio" name="male-ratherNotSay">Rather not Say</label>
+    <br>
+    <br>
+    <label for="email">Email</label>
+    <input id="email" type="email" placeholder="example123@mail.com" required>
+    <br>
+    <br>
+    <label for="phone">Phone Number</label>
+    <input id="phone" type="tel">
+    <br>
+    <br>
+    <label for="dob">DOB:</label>
+    <input id="dob" type="date">
+    <br>
+    <br>
+    <br>
+
+    <h2>Personality Checker</h2>
+    <br>
+    <label for="avatar">Choose a Profile Picture:</label>
+    <input id="avatar" type="file" name="avatar" accept="image/png, image/jpeg">
+    <br>
+    <br>
+    <br>
+    <fieldset>
+        <legend>Choose your favourite colours:</legend>
+
+        <div>
+            <label for="blue">Blue</label>
+            <input id="blue" type="checkbox" name="blue">
+        </div>
+
+        <div>
+            <label for="red">Red</label>
+            <input id="red" type="checkbox" name="red">
+        </div>
+
+        <div>
+            <label for="black">Black</label>
+            <input id="black" type="checkbox" name="black">
+        </div>
+
+        <div>
+            <label for="white">White</label>
+            <input id="white" type="checkbox" name="white">
+        </div>
+
+        <div>
+            <label for="grey">Grey</label>
+            <input id="grey" type="checkbox" name="grey">
+        </div>
+
+        <div>
+            <label for="biege">Biege</label>
+            <input id="biege" type="checkbox" name="biege">
+        </div>
+    </fieldset>
+    <br>
+    <br>
+    <label for="aboutYou">Tell us a little bit about you:</label>
+    <textarea name="aboutYou" id="aboutYou" cols="30" rows="5" placeholder="Enter text here..."></textarea>
+    <br>
+    <br>
+    <input type="reset" value="Clear">
+    <input type="submit">
+
+
+
+
+
+
+
+
+</body>
+
+</html>
